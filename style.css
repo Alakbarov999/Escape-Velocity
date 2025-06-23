@@ -32,7 +32,7 @@ body, html {
   display: flex;
   gap: 40px;
   background: rgba(255, 255, 255, 0.05);
-  padding: 20px 55px;
+  padding: 20px 24px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   margin-top: 15px;
@@ -47,13 +47,13 @@ body, html {
 }
 
 .banner-text h1 {
-  font-size: 48px;
+  font-size: 34px;
   letter-spacing: 2px;
   font-weight: 700;
 }
 
 .banner-text p {
-  margin-top: 20px;
+  margin-top: 18px;
   font-size: 16px;
   opacity: 0.8;
 }
@@ -151,11 +151,15 @@ body, html {
     text-transform: uppercase;
     position: relative;
     top: -36px;
-    margin-left: 40%;
+}
+.details {
+    text-align: center;
+}
+.details-photo {
+    text-align: center;
 }
 .details-photo img {
     margin-top: 0px;
-    margin-left: 225px;
     width: 70%;
     padding: 55px;
 }
@@ -182,8 +186,8 @@ body, html {
 
 .left-item{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: left;
+  justify-content: left;
   margin-right: 100px;
   margin-bottom: 50px;
 }
@@ -237,7 +241,6 @@ margin-top: 70px;
     margin-top: 60px;
     border-radius: 10px;
     margin-bottom: 160px;
-    margin-left: 525px;
 }
 .more-info {
     background-color: #ffffff;
@@ -264,11 +267,11 @@ margin-top: 70px;
     text-transform: uppercase;
     position: relative;
     top: -148px;
-    margin-left: 36%;
 }
 .the-endorsements { 
   background-color: #b6b6b6;
   padding: 100px;
+  text-align: center;
 }
 .album img{
   background-color: white;
@@ -278,7 +281,6 @@ margin-top: 70px;
 display: flex;
 gap: 25px;
 margin-top: -80px;
-margin-left: 65px;
 }
 .albums-parent h3 {
   color: #dc6262;
@@ -305,7 +307,6 @@ margin-left: 65px;
     position: relative;
     margin-top: 60px;
     border-radius: 10px;
-    margin-left: 140px;
 }
 .learn-more-2 { 
     background-color: #f48080;
@@ -343,11 +344,11 @@ margin-left: 65px;
     text-transform: uppercase;
     position: relative;
     top: -40px;
-    margin-left: 630px;
 }
 .the-rest {
   background-color: #262837;
    min-height: 500px;
+   text-align: center;
 }
 .the-rest-text h2 {
     justify-content: center;
