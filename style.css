@@ -96,14 +96,14 @@ body, html {
 
 .intro-box {
     background-color: #e57373;
-    color: white;
-    font-weight: bold;
     padding: 20px 70px;
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
     position: relative;
     top: -335px;
+    color: black
+
 }
 .intro-proceed {
     background-color: #373333;
@@ -463,4 +463,7 @@ footer a {
   display: flex;
   background-color: black;
   border-radius: 50%;
+}
+.button {
+    text-align: center;
 }
