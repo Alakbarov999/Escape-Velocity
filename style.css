@@ -152,6 +152,10 @@ body, html {
     font-size: 16px;
     position: relative;
     top: -36px;
+        box-shadow: 
+-4px 0 4px -2px rgba(0, 0, 0, 0.2), 
+4px 0 4px -2px rgba(0, 0, 0, 0.2);
+    background-color:white
 }
 .details {
     text-align: center;
@@ -265,6 +269,10 @@ margin-top: 70px;
     font-size: 16px;
     position: relative;
     top: -148px;
+    box-shadow: 
+-4px 0 4px -2px rgba(0, 0, 0, 0.2), 
+4px 0 4px -2px rgba(0, 0, 0, 0.2);
+    background-color:#b6b6b6;
 }
 .the-endorsements { 
   background-color: #b6b6b6;
@@ -338,6 +346,10 @@ margin-top: -80px;
     font-size: 16px;
     position: relative;
     top: -40px;
+    box-shadow: 
+-4px 0 4px -2px rgba(0, 0, 0, 0.2), 
+4px 0 4px -2px rgba(0, 0, 0, 0.2);
+    background-color:#262837;
 }
 .the-rest {
   background-color: #262837;
