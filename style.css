@@ -17,7 +17,7 @@ body, html {
   flex-direction: column;
   justify-content: center;
   height: 500px;
-  width: 100%;
+  width: 285%
 }
 
 .navbar {
@@ -62,6 +62,7 @@ body, html {
   padding: 70px 0;
   text-align: center;
   position: relative;
+  width: 285%
 }
 
 .intro-text p {
@@ -162,6 +163,7 @@ body, html {
 }
 .details-photo {
     text-align: center;
+    width: 295%;
 }
 .details-photo img {
     margin-top: 0px;
@@ -262,6 +264,7 @@ margin-top: 70px;
 }
 .endorsements {
     background-color: #b6b6b6;
+    width: 285%;
     color: black;
     font-weight: bold;
     padding: 25px 100px;
@@ -354,7 +357,8 @@ margin-top: -80px;
 .the-rest {
   background-color: #262837;
    min-height: 500px;
-   text-align: center;
+   text-align: center;  
+   width: 285%;
 }
 .the-rest-text h2 {
     justify-content: center;
